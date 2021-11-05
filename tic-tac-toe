@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="tic-tac-toe.css">
+</head>
+
+<body>
+
+    <h1>Tic Tac Toe</h1>
+    <table>
+        <tr>
+            <td></td>
+            <td class="vert"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="hori"></td>
+            <td class="vert hori"></td>
+            <td class="hori"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="vert"></td>
+            <td></td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
