@@ -134,7 +134,7 @@ nav ul li a {
 a.active,
 a:hover {
   background: #8f8f8f;
-  color: white;
+  color: white
   transition: 0.5s;
 }
 
