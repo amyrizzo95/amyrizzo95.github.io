@@ -55,21 +55,20 @@ body {
 }
 
 .image_description {
-  font-size: 1.25em;
-  font-size: 1.25vw;
+  font-size: 1em;
+  font-size: 1vw;
   margin-top: 0.25em;
 }
 
 @media (max-width: 858px) {
   .image {
     width: 80%;
-    padding-left: 3vw;
   }
 }
 
 @media (max-width: 858px) {
   .image_title {
-    font-size: 1em;
+    font-size: 1.5em;
   }
 }
 
@@ -81,6 +80,7 @@ body {
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
 /*nav bar background*/
