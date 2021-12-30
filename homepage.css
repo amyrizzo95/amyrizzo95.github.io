@@ -1,21 +1,27 @@
-body {
-	background-color: #0b69a8;
-}
+/* make background blue*/
 
-body{
+body {
     font-size: larger;
+    margin: 0px;
+    width: 100vw;
+    background-color: #0b69a8;
 }
 
 nav{
 font-family: 'Alata','Arial', 'Helvetica', 'sans-serif';
 font-size: large
-
 }
-nav ul li{
+
+nav li {
     border-right: 2px solid #c4c4c4;
     display: inline-block;
     float: center;
     padding: 0 60px;
+    position: relative;
+    
+}
+ul :last-child {
+    border-right: 0;
 }
 
 nav link{
@@ -27,3 +33,8 @@ div {
     font-size: larger;
 }
 
+nav ul li a :last-child :hover {
+display: block;
+position: absolute;
+background-color: grey
+}
