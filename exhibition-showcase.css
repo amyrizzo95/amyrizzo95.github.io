@@ -1,0 +1,243 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-image: url(./images/backgroundsquare.png);
+  background-size: cover;
+}
+
+.image {
+  position: relative;
+  width: 400px;
+  float: left;
+  width: 20%;
+  height: auto;
+  margin: 6%;
+}
+
+.image_img {
+  display: block;
+  width: 100%;
+}
+
+.image_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.image_overlay > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.image_overlay:hover {
+  opacity: 1;
+}
+
+.image_overlay:hover > * {
+  transform: translateY(0);
+}
+
+.image_title {
+  font-size: 2em;
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.image_description {
+  font-size: 1.25em;
+  font-size: 1.25vw;
+  margin-top: 0.25em;
+}
+
+@media (max-width: 858px) {
+  .image {
+    width: 80%;
+    padding-left: 3vw;
+  }
+}
+
+@media (max-width: 858px) {
+  .image_title {
+    font-size: 1em;
+  }
+}
+
+/*Navbar referenced from: https://www.youtube.com/watch?v=oLgtucwjVII&t=201s */
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+/*nav bar background*/
+
+nav {
+  background: white;
+  height: 80%;
+  width: 100%;
+  z-index: 2;
+}
+
+/*logo top left*/
+
+label[class="logo"] {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  line-height: 80px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0%;
+  margin-left: 20px;
+  padding-left: 0px;
+}
+
+/*navbar content */
+
+nav ul {
+  float: right;
+  margin-right: 0%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  z-index: 2;
+  padding-right: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0px;
+}
+nav ul li a {
+  color: black;
+  font-size: 17px;
+  padding: 7px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/*hovering over the navbar content*/
+a.active,
+a:hover {
+  background: #8f8f8f;
+  color: white;
+  transition: 0.5s;
+}
+
+/*burger menu */
+.checkbtn {
+  font-size: 30px;
+  color: black;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+@media (max-width: 952px) {
+  label[class="logo"] {
+    font-size: 25px;
+  }
+  nav ul li a {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 952px) {
+  ul {
+    height: 50px;
+  }
+}
+/*navbar when screen is small*/
+@media (max-width: 858px) {
+  .checkbtn {
+    display: block;
+  }
+
+  ul {
+    position: fixed;
+    width: 100%;
+    background: #f7f7f7;
+    top: 80px;
+    right: -106%;
+    text-align: center;
+    transition: all 0.5s;
+    z-index: 2;
+  }
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+    z-index: 2;
+  }
+  nav ul li a {
+    font-size: 20px;
+    z-index: 2;
+  }
+
+  /*colour when I hover over on the navbar content when small*/
+  a:hover,
+  a.active {
+    background: #8f8f8f;
+    color: white;
+  }
+  #check:checked ~ ul {
+    right: 0;
+  }
+}
+
+/*text of transition boxes*/
+@media (max-width: 1920px) {
+  h1 {
+    font-size: 45px;
+  }
+}
+
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 30px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (min-width: 360px) {
+  h1 {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 1920px) {
+  p {
+    font-size: 45px;
+  }
+}
+
+@media (min-width: 360px) {
+  p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  p {
+    display: none;
+  }
+}
