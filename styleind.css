@@ -6,6 +6,12 @@ body {
   margin: 0;
   background-color: white;
 }
+
+html,
+body {
+  overflow-x: hidden;
+}
+
 /* Global */
 .container {
   width: 80%;
@@ -186,10 +192,4 @@ header {
   #showcase {
     background: url("../images/square.jpg");
   }
-}
-
-html,
-body {
-  max-width: 100%;
-  overflow-x: hidden;
 }
