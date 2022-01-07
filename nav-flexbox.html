@@ -1,122 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!doctype html>
-    <html lang="en">
+    <title>Nav Flexbox</title>
+  </head>
 
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-        <title>Nav Flexbox</title>
-    </head>
-
-<body>
-
+  <body>
     <h1>Nav Flexbox</h1>
     <h2>Navbar Style 1</h2>
 
     <ul class="nav">
-        <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Active</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"
+          >Disabled</a
+        >
+      </li>
     </ul>
 
     <h2>Navbar Style 2</h2>
 
     <nav class="nav border justify-content-around">
-        <a class="nav-link active" href="#">Active</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link disabled" href="#">Disabled</a>
+      <a class="nav-link active" href="#">Active</a>
+      <a class="nav-link" href="#">Link</a>
+      <a class="nav-link" href="#">Link</a>
+      <a class="nav-link disabled" href="#">Disabled</a>
     </nav>
 
-    <h2>Column Navbar </h2>
+    <h2>Column Navbar</h2>
 
     <nav class="nav flex-column">
-        <a class="nav-link active" aria-current="page" href="#">Active</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      <a class="nav-link active" aria-current="page" href="#">Active</a>
+      <a class="nav-link" href="#">Link</a>
+      <a class="nav-link" href="#">Link</a>
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"
+        >Disabled</a
+      >
     </nav>
 
     <h2>Reverse Column Navbar</h2>
 
     <nav class="nav flex-column-reverse">
-        <a class="nav-link active" href="#">Active</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link disabled" href="#"> Disabled</a>
+      <a class="nav-link active" href="#">Active</a>
+      <a class="nav-link" href="#">Link</a>
+      <a class="nav-link" href="#">Link</a>
+      <a class="nav-link disabled" href="#"> Disabled</a>
     </nav>
 
     <h2>Responsive Navbar</h2>
 
     <ul class="nav justify-content-center">
-        <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Active</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"
+          >Disabled</a
+        >
+      </li>
     </ul>
 
     <h2>Tab Navbar</h2>
     <ul class="nav nav-tabs">
-        <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Active</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"
+          >Disabled</a
+        >
+      </li>
     </ul>
 
-    <h2> Navbar Style 2</h2>
+    <h2>Navbar Style 2</h2>
     <ul class="nav justify-content-end">
-        <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Active</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"
+          >Disabled</a
+        >
+      </li>
     </ul>
-
-</body>
-
-
+  </body>
 </html>
