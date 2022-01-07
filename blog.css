@@ -1,39 +1,38 @@
-.whole-text{
-    font-family: "Source Sans Pro", "Sans-serif";  
-    width: 700px;
-    border: 15px solid #bdc7cf;
-    padding: 35px;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
+.whole-text {
+  font-family: "Source Sans Pro", "Sans-serif";
+  width: 700px;
+  border: 15px solid #bdc7cf;
+  padding: 35px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
 }
 
- .first-para{
-    border-left: 5px solid #bdc7cf;
-    padding-left: 10px;
- }
-
-h1{
-    font-family: "Source Sans Pro", "Sans-serif"  ;
-    font-size: 18px;
-    font-weight: 565;
-    letter-spacing: 9px;
-    color: rgb(119, 171, 206);
-    text-align: left;
-    text-transform: uppercase
+.first-para {
+  border-left: 5px solid #bdc7cf;
+  padding-left: 10px;
 }
 
-h2{
-    font-family: "Source Sans Pro", "Sans-serif"  ;
-    font-size: 25px;
-    font-weight: bold;
-    letter-spacing: 3.5px;
-    color: #354b63;
-    text-align: left;
-    text-transform:  capitalize;
+h1 {
+  font-family: "Source Sans Pro", "Sans-serif";
+  font-size: 18px;
+  font-weight: 565;
+  letter-spacing: 9px;
+  color: rgb(119, 171, 206);
+  text-align: left;
+  text-transform: uppercase;
 }
 
-hr{
-    color:#bdc7cf
+h2 {
+  font-family: "Source Sans Pro", "Sans-serif";
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 3.5px;
+  color: #354b63;
+  text-align: left;
+  text-transform: capitalize;
+}
 
+hr {
+  color: #bdc7cf;
 }
